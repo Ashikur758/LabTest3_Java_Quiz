@@ -80,11 +80,11 @@ public class GKQuiz {
         System.out.println("Score: " + score + "/5");
 
         if (score >= 4) {
-            System.out.println("Grade: Excellent 🎉");
+            System.out.println("Grade: Excellent");
         } else if (score >= 2) {
-            System.out.println("Grade: Good 👍");
+            System.out.println("Grade: Good");
         } else {
-            System.out.println("Grade: Try Again 💪");
+            System.out.println("Grade: Try Again");
         }
 
         sc.close();
